@@ -29,12 +29,9 @@
 
 :root {
     /* Colors - Fresh Palette (White, White-Blue, Orange) */
-    --color-primary: #f97316;
-    /* Orange 500 */
-    --color-primary-light: #fb923c;
-    /* Orange 400 */
-    --color-primary-dark: #ea580c;
-    /* Orange 600 */
+    --color-primary: #ffa14f;
+    --color-primary-light: #ffbe7a;
+    --color-primary-dark: #e8853a;
     --color-secondary: #0ea5e9;
     /* Sky 500 - Blue accent */
     --color-accent: #38bdf8;
@@ -92,7 +89,7 @@
     --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
     --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
     --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
-    --shadow-glow: 0 0 20px rgba(249, 115, 22, 0.2);
+    --shadow-glow: 0 0 20px rgba(255, 161, 79, 0.25);
 
     /* Border Radius */
     --radius-sm: 0.375rem;
@@ -584,14 +581,14 @@ ul {
    =========================== */
 .opening-section {
     padding: 100px 0 !important;
-    background-color: var(--color-bg-secondary);
+    background-color: #0E2A47;
 }
 
 .intro-text {
     font-family: 'Awesome Serif', serif;
     font-size: 52px;
     font-weight: 700;
-    color: var(--color-text-primary);
+    color: rgba(255, 255, 255, 0.95);
     margin-bottom: 2rem;
     line-height: 1.2;
     letter-spacing: normal;
@@ -602,7 +599,7 @@ ul {
 
 .intro-subtext {
     font-size: 1.1rem;
-    color: var(--color-text-secondary);
+    color: rgba(255, 255, 255, 0.6);
     letter-spacing: -0.5px;
 }
 
