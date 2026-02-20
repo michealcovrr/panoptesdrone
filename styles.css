@@ -140,13 +140,20 @@ body {
    =========================== */
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
     font-family: var(--font-heading);
     font-weight: 700;
     line-height: 1.2;
+    color: var(--color-text-primary);
+}
+
+h4,
+h5,
+h6 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
     color: var(--color-text-primary);
 }
 
