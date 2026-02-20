@@ -234,10 +234,10 @@ ul {
     justify-content: center;
     min-height: unset;
     width: auto;
-    padding: 0.55em 1.5rem;
+    padding: 0.7em 1.75rem;
     border-radius: 32px;
     font-weight: 600;
-    font-size: 0.95rem;
+    font-size: 1rem;
     cursor: pointer;
     transition: background 0.3s, border 0.3s, box-shadow 0.3s, transform 0.4s;
     border: none;
@@ -262,10 +262,10 @@ ul {
     gap: 0.5rem;
     min-height: unset;
     width: auto;
-    padding: 0.55em 1.5rem;
+    padding: 0.7em 1.75rem;
     border-radius: 32px;
     font-weight: 600;
-    font-size: 0.95rem;
+    font-size: 1rem;
     background: #FFFFFF;
     color: var(--color-text-primary);
     border: 1px solid #e5e5e5;
