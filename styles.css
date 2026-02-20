@@ -1521,7 +1521,7 @@ ul {
     padding-left: var(--spacing-lg);
     margin-bottom: var(--spacing-sm);
     font-size: 0.95rem;
-    color: var(--color-text-secondary);
+    color: inherit;
     line-height: 1.6;
 }
 
