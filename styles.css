@@ -309,6 +309,26 @@ ul {
     padding: 0 var(--spacing-lg);
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo-icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 .logo h1 {
     font-size: 24px;
     font-weight: 600;
