@@ -378,7 +378,7 @@ ul {
 .mobile-menu {
     display: none;
     position: fixed;
-    top: 77px;
+    top: 65px;
     left: 0;
     right: 0;
     background: var(--color-bg-secondary);
@@ -2120,6 +2120,8 @@ ul {
 
     .blog-card-title {
         font-size: 18px;
+        font-family: var(--font-family);
+        letter-spacing: -1px;
     }
 
     .blog-article-hero h1 {
