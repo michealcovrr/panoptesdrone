@@ -2259,9 +2259,10 @@ ul {
 }
 
 .about-value-card h3 {
-    font-family: var(--font-heading);
+    font-family: var(--font-family);
     font-size: 18px;
     font-weight: 600;
+    letter-spacing: -1px;
     margin-bottom: 8px;
     color: var(--color-text-primary);
 }
@@ -2544,9 +2545,10 @@ ul {
 }
 
 .contact-info-card h3 {
-    font-family: var(--font-heading);
+    font-family: var(--font-family);
     font-size: 17px;
     font-weight: 600;
+    letter-spacing: -1px;
     color: var(--color-text-primary);
     margin-bottom: 4px;
 }
@@ -2825,9 +2827,10 @@ ul {
 }
 
 .location-service-card h4 {
-    font-family: var(--font-heading);
+    font-family: var(--font-family);
     font-size: 16px;
     font-weight: 600;
+    letter-spacing: -1px;
     color: var(--color-text-primary);
     margin-bottom: 6px;
 }
