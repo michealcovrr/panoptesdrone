@@ -310,7 +310,7 @@ ul {
 }
 
 .logo h1 {
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 600;
     color: #000000;
     background: none;
@@ -357,6 +357,21 @@ ul {
 .btn-nav:hover {
     background: #222222;
     box-shadow: var(--shadow-md);
+}
+
+.btn-talks-mobile {
+    display: none;
+    align-items: center;
+    text-decoration: none;
+    background: #0E2A47;
+    color: #ffffff;
+    padding: 0 1rem;
+    height: 38px;
+    border-radius: 20px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    white-space: nowrap;
+    letter-spacing: -0.3px;
 }
 
 .mobile-menu-toggle {
@@ -1289,8 +1304,20 @@ ul {
         display: flex;
     }
 
+    .btn-talks-mobile {
+        display: inline-flex;
+    }
+
     .hero-title {
-        font-size: var(--font-size-4xl);
+        font-size: 35px;
+    }
+
+    .intro-text {
+        font-size: 44px;
+    }
+
+    .feature-text h3 {
+        font-size: 35px;
     }
 
     .hero-subtitle {
@@ -1339,7 +1366,7 @@ ul {
     }
 
     .hero-title {
-        font-size: var(--font-size-3xl);
+        font-size: 35px;
     }
 
     .btn-large {
@@ -1402,13 +1429,15 @@ ul {
     color: #ffffff !important;
     margin-bottom: var(--spacing-sm) !important;
     margin-top: 0 !important;
-    font-size: 22px !important;
+    font-size: 20px !important;
+    letter-spacing: -1px !important;
 }
 
 .feature-detail-container ul,
 .feature-detail-container li,
 .feature-detail-container p {
     color: #f6f6f6 !important;
+    text-align: left !important;
 }
 
 .feature-detail-container li strong {
@@ -1680,31 +1709,21 @@ ul {
     transform: none !important;
 }
 
-/* Responsive - Horizontal scroll on small screens */
+/* Responsive - Wrap into 2 rows on small screens */
 @media (max-width: 768px) {
     .tab-buttons-container {
-        overflow-x: auto;
-        overflow-y: hidden;
-        -webkit-overflow-scrolling: touch;
-        scrollbar-width: thin;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
+        justify-content: center;
+        overflow: visible;
+        max-width: 100%;
+        width: 100%;
+        left: 0;
+        transform: none;
     }
 
     .tab-buttons-container .tab-btn {
         font-size: 15px;
-    }
-
-    .tab-buttons-container::-webkit-scrollbar {
-        height: 4px;
-    }
-
-    .tab-buttons-container::-webkit-scrollbar-track {
-        background: transparent;
-    }
-
-    .tab-buttons-container::-webkit-scrollbar-thumb {
-        background: #e5e5e5;
-        border-radius: 4px;
+        flex: 0 0 auto;
     }
 }
 

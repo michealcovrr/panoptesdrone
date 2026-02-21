@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git -C \"c:/Users/Admin/Downloads/prospectusdrones\" grep -n \"opening-section\" -- index.html)",
+      "Bash(git -C \"c:/Users/Admin/Downloads/prospectusdrones\" grep -n \"how-it-works\" -- index.html)",
+      "Bash(git -C \"c:/Users/Admin/Downloads/prospectusdrones\" grep -n \"What\" -- index.html)",
+      "Bash(git -C \"c:/Users/Admin/Downloads/prospectusdrones\" grep -n \"about-cta-box\" -- index.html)",
+      "Bash(git -C \"c:/Users/Admin/Downloads/prospectusdrones\" grep -n \"Included\" -- index.html)"
+    ]
+  }
+}
