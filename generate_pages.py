@@ -739,10 +739,13 @@ def generate_page(service_key, loc_slug):
             "@type": "LocalBusiness",
             "name": "PanoptesDrones",
             "url": "https://panoptesdrones.com",
+            "telephone": "+2347025580054",
             "address": {{
                 "@type": "PostalAddress",
-                "addressLocality": "{loc['name']}, Lagos",
+                "streetAddress": "28 Razak Balogun Street, Abule-Oja, Akoka",
+                "addressLocality": "Yaba",
                 "addressRegion": "Lagos",
+                "postalCode": "101283",
                 "addressCountry": "NG"
             }}
         }},
