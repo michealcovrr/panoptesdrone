@@ -1313,7 +1313,7 @@ ul {
     }
 
     .intro-text {
-        font-size: 44px;
+        font-size: 38px;
     }
 
     .feature-text h3 {
@@ -1540,6 +1540,7 @@ ul {
     list-style: none;
     margin-top: var(--spacing-md);
     padding-left: 0;
+    text-align: left;
 }
 
 .use-case-list li {
