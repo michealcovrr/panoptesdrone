@@ -330,7 +330,7 @@ ul {
 }
 
 .logo h1 {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
     letter-spacing: 1px;
     color: #000000;
@@ -2790,6 +2790,14 @@ ul {
     .contact-grid {
         grid-template-columns: 1fr;
         gap: var(--spacing-2xl);
+    }
+
+    .contact-content-section {
+        padding: var(--spacing-xl) 0;
+    }
+
+    .contact-info-card {
+        padding: var(--spacing-md);
     }
 
     .form-row {
