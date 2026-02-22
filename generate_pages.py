@@ -467,7 +467,7 @@ LOCATIONS = {
 SERVICES = {
     'real-estate': {
         'tag': 'Real Estate',
-        'parent_page': 'real-estate-drone-lagos.html',
+        'parent_page': '/real-estate-drone-lagos/',
         'parent_label': 'Real Estate Drone Lagos (All Areas)',
         'section_bg': '#3D4B2F',
         'btn_label': 'Book a Property Shoot',
@@ -483,7 +483,7 @@ SERVICES = {
                         <li>Professional operator included</li>
                     </ul>
                     <div style="text-align: center; margin-top: 1.5rem;">
-                        <a href="contact.html" class="btn-hero" style="background: #ffffff; color: #000000;">Book This Package</a>
+                        <a href="/contact/" class="btn-hero" style="background: #ffffff; color: #000000;">Book This Package</a>
                     </div>
                 </div>
                 <div class="feature-card" style="background: #111; border: 1px solid rgba(255,255,255,0.2);">
@@ -497,13 +497,13 @@ SERVICES = {
                         <li>Monthly delivery schedule</li>
                     </ul>
                     <div style="text-align: center; margin-top: 1.5rem;">
-                        <a href="contact.html" class="btn-hero" style="background: #ffffff; color: #000000;">Talk to Us</a>
+                        <a href="/contact/" class="btn-hero" style="background: #ffffff; color: #000000;">Talk to Us</a>
                     </div>
                 </div>''',
     },
     'construction': {
         'tag': 'Construction',
-        'parent_page': 'construction-drone-lagos.html',
+        'parent_page': '/construction-drone-lagos/',
         'parent_label': 'Construction Drone Lagos (All Areas)',
         'section_bg': '#3D4B2F',
         'btn_label': 'Book Site Monitoring',
@@ -518,7 +518,7 @@ SERVICES = {
                         <li>Professional operator included</li>
                     </ul>
                     <div style="text-align: center; margin-top: 1.5rem;">
-                        <a href="contact.html" class="btn-hero" style="background: #ffffff; color: #000000;">Book This Package</a>
+                        <a href="/contact/" class="btn-hero" style="background: #ffffff; color: #000000;">Book This Package</a>
                     </div>
                 </div>
                 <div class="feature-card" style="background: #111; border: 1px solid rgba(255,255,255,0.2);">
@@ -531,7 +531,7 @@ SERVICES = {
                         <li>Cloud delivery access</li>
                     </ul>
                     <div style="text-align: center; margin-top: 1.5rem;">
-                        <a href="contact.html" class="btn-hero" style="background: #ffffff; color: #000000;">Book This Package</a>
+                        <a href="/contact/" class="btn-hero" style="background: #ffffff; color: #000000;">Book This Package</a>
                     </div>
                 </div>
                 <div class="feature-card" style="background: #111; border: 1px solid rgba(255,255,255,0.2);">
@@ -544,13 +544,13 @@ SERVICES = {
                         <li>Cloud delivery with archive</li>
                     </ul>
                     <div style="text-align: center; margin-top: 1.5rem;">
-                        <a href="contact.html" class="btn-hero" style="background: #ffffff; color: #000000;">Book This Package</a>
+                        <a href="/contact/" class="btn-hero" style="background: #ffffff; color: #000000;">Book This Package</a>
                     </div>
                 </div>''',
     },
     'events': {
         'tag': 'Events & Weddings',
-        'parent_page': 'events-drone-lagos.html',
+        'parent_page': '/events-drone-lagos/',
         'parent_label': 'Event Drone Coverage Lagos (All Areas)',
         'section_bg': '#0E2A47',
         'btn_label': 'Book Event Coverage',
@@ -565,7 +565,7 @@ SERVICES = {
                         <li>Social media optimized formats</li>
                     </ul>
                     <div style="text-align: center; margin-top: 1.5rem;">
-                        <a href="contact.html" class="btn-hero" style="background: #ffffff; color: #000000;">Book This Package</a>
+                        <a href="/contact/" class="btn-hero" style="background: #ffffff; color: #000000;">Book This Package</a>
                     </div>
                 </div>
                 <div class="feature-card" style="background: #111; border: 1px solid rgba(255,255,255,0.2);">
@@ -578,7 +578,7 @@ SERVICES = {
                         <li>48-hour delivery</li>
                     </ul>
                     <div style="text-align: center; margin-top: 1.5rem;">
-                        <a href="contact.html" class="btn-hero" style="background: #ffffff; color: #000000;">Book This Package</a>
+                        <a href="/contact/" class="btn-hero" style="background: #ffffff; color: #000000;">Book This Package</a>
                     </div>
                 </div>
                 <div class="feature-card" style="background: #111; border: 1px solid rgba(255,255,255,0.2);">
@@ -591,13 +591,13 @@ SERVICES = {
                         <li>Same-day preview option</li>
                     </ul>
                     <div style="text-align: center; margin-top: 1.5rem;">
-                        <a href="contact.html" class="btn-hero" style="background: #ffffff; color: #000000;">Get a Quote</a>
+                        <a href="/contact/" class="btn-hero" style="background: #ffffff; color: #000000;">Get a Quote</a>
                     </div>
                 </div>''',
     },
     'commercial': {
         'tag': 'Commercial',
-        'parent_page': 'commercial-drone-lagos.html',
+        'parent_page': '/commercial-drone-lagos/',
         'parent_label': 'Commercial Drone Lagos (All Areas)',
         'section_bg': '#0E2A47',
         'btn_label': 'Request a Quote',
@@ -612,7 +612,7 @@ SERVICES = {
                         <li>Social media formats included</li>
                     </ul>
                     <div style="text-align: center; margin-top: 1.5rem;">
-                        <a href="contact.html" class="btn-hero" style="background: #ffffff; color: #000000;">Book This Package</a>
+                        <a href="/contact/" class="btn-hero" style="background: #ffffff; color: #000000;">Book This Package</a>
                     </div>
                 </div>
                 <div class="feature-card" style="background: #111; border: 1px solid rgba(255,255,255,0.2);">
@@ -625,7 +625,7 @@ SERVICES = {
                         <li>Raw footage delivery option</li>
                     </ul>
                     <div style="text-align: center; margin-top: 1.5rem;">
-                        <a href="contact.html" class="btn-hero" style="background: #ffffff; color: #000000;">Get a Quote</a>
+                        <a href="/contact/" class="btn-hero" style="background: #ffffff; color: #000000;">Get a Quote</a>
                     </div>
                 </div>''',
     },
@@ -656,16 +656,16 @@ def build_internal_links(service_key, loc_slug):
     for lk, lv in LOCATIONS.items():
         if lk == loc_slug:
             continue
-        fname = f'{service_key}-drone-{lk}.html'
+        fname = f'/{service_key}-drone-{lk}/'
         links.append(f'<li><a href="{fname}" style="color: var(--color-primary); text-decoration: none;">{svc["tag"]} Drone in {lv["name"]}</a></li>')
     # Location general page
     loc = LOCATIONS[loc_slug]
-    links.append(f'<li><a href="{loc["loc_page"]}" style="color: var(--color-primary); text-decoration: none;">All Drone Services in {loc["name"]}</a></li>')
+    links.append(f'<li><a href="/{loc["loc_page"]}" style="color: var(--color-primary); text-decoration: none;">All Drone Services in {loc["name"]}</a></li>')
     # Other services for same location
     for sk, sv in SERVICES.items():
         if sk == service_key:
             continue
-        fname = f'{sk}-drone-{loc_slug}.html'
+        fname = f'/{sk}-drone-{loc_slug}/'
         links.append(f'<li><a href="{fname}" style="color: var(--color-primary); text-decoration: none;">{sv["tag"]} Drone in {loc["name"]}</a></li>')
     return '\n                '.join(links)
 
@@ -674,8 +674,8 @@ def generate_page(service_key, loc_slug):
     svc = SERVICES[service_key]
     loc = LOCATIONS[loc_slug]
     data = loc[service_key.replace('-', '_')]
-    filename = f'{service_key}-drone-{loc_slug}.html'
-    canonical = f'https://panoptesdrones.com/{filename}'
+    slug = f'{service_key}-drone-{loc_slug}'
+    canonical = f'https://panoptesdrones.com/{slug}/'
     svc_name_loc = f'{svc["tag"]} Drone Services in {loc["name"]}'
     title = f'{data["hero"]} | PanoptesDrones'
 
@@ -724,12 +724,12 @@ def generate_page(service_key, loc_slug):
     <meta name="twitter:title" content="{title}">
     <meta name="twitter:description" content="{data['hero_sub'][:200]}">
 
-    <link rel="stylesheet" href="styles.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="shortcut icon" href="/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -774,19 +774,19 @@ def generate_page(service_key, loc_slug):
     <nav class="navbar">
         <div class="container nav-container">
             <div class="logo">
-                <a href="index.html" style="text-decoration:none;color:inherit;"><img src="images/panoptesdroneslogo1.png" alt="PanoptesDrones" class="logo-icon"><h1>PanoptesDrones</h1></a>
+                <a href="/" style="text-decoration:none;color:inherit;"><img src="/images/panoptesdroneslogo1.png" alt="PanoptesDrones" class="logo-icon"><h1>PanoptesDrones</h1></a>
             </div>
             <ul class="nav-links">
-                <li><a href="about.html">About us</a></li>
-                <li><a href="index.html#how-it-works">How it works</a></li>
-                <li><a href="index.html#pricing">Pricing</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="/about/">About us</a></li>
+                <li><a href="/#how-it-works">How it works</a></li>
+                <li><a href="/#pricing">Pricing</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/contact/">Contact</a></li>
             </ul>
             <div class="nav-actions">
-                <a href="contact.html" class="btn-primary btn-nav">Get a Quote</a>
+                <a href="/contact/" class="btn-primary btn-nav">Get a Quote</a>
             </div>
-            <a href="contact.html" class="btn-talks-mobile">Let's talk</a>
+            <a href="/contact/" class="btn-talks-mobile">Let's talk</a>
             <button class="mobile-menu-toggle" id="mobileMenuToggle">
                 <span></span><span></span><span></span>
             </button>
@@ -795,12 +795,12 @@ def generate_page(service_key, loc_slug):
 
     <div class="mobile-menu" id="mobileMenu">
         <ul>
-            <li><a href="about.html">About us</a></li>
-            <li><a href="index.html#how-it-works">How it works</a></li>
-            <li><a href="index.html#pricing">Pricing</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="contact.html">Get a Quote</a></li>
+            <li><a href="/about/">About us</a></li>
+            <li><a href="/#how-it-works">How it works</a></li>
+            <li><a href="/#pricing">Pricing</a></li>
+            <li><a href="/blog/">Blog</a></li>
+            <li><a href="/contact/">Contact</a></li>
+            <li><a href="/contact/">Get a Quote</a></li>
         </ul>
     </div>
 
@@ -811,7 +811,7 @@ def generate_page(service_key, loc_slug):
             <h1 class="about-hero-title">{data['hero']}</h1>
             <p class="about-hero-subtitle">{data['hero_sub']}</p>
             <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 2rem; justify-content: center;">
-                <a href="contact.html" class="btn-primary btn-hero">{svc['btn_label']}</a>
+                <a href="/contact/" class="btn-primary btn-hero">{svc['btn_label']}</a>
                 <a href="tel:+2348000000000" class="btn-call">
                     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
                     Let's talk
@@ -899,7 +899,7 @@ def generate_page(service_key, loc_slug):
                 <h2 style="color: #111111;">{data['cta_heading']}</h2>
                 <p style="color: var(--color-text-secondary);">{data['cta_text']}</p>
                 <div style="display: flex; justify-content: center; margin-top: var(--spacing-xl);">
-                    <a href="contact.html" class="btn-primary btn-hero">{svc['btn_label']}</a>
+                    <a href="/contact/" class="btn-primary btn-hero">{svc['btn_label']}</a>
                 </div>
             </div>
         </div>
@@ -927,37 +927,37 @@ def generate_page(service_key, loc_slug):
                 <div class="footer-column">
                     <h4>Services</h4>
                     <ul>
-                        <li><a href="real-estate-drone-lagos.html">Real Estate Aerial Media</a></li>
-                        <li><a href="construction-drone-lagos.html">Construction Monitoring</a></li>
-                        <li><a href="events-drone-lagos.html">Event Drone Coverage</a></li>
-                        <li><a href="commercial-drone-lagos.html">Commercial Aerial Services</a></li>
-                        <li><a href="drone-rental-lagos.html">Drone Rental</a></li>
+                        <li><a href="/real-estate-drone-lagos/">Real Estate Aerial Media</a></li>
+                        <li><a href="/construction-drone-lagos/">Construction Monitoring</a></li>
+                        <li><a href="/events-drone-lagos/">Event Drone Coverage</a></li>
+                        <li><a href="/commercial-drone-lagos/">Commercial Aerial Services</a></li>
+                        <li><a href="/drone-rental-lagos/">Drone Rental</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
                     <h4>Locations</h4>
                     <ul>
-                        <li><a href="locations/lekki/">Lekki</a></li>
-                        <li><a href="locations/victoria-island/">Victoria Island</a></li>
-                        <li><a href="locations/ikoyi/">Ikoyi</a></li>
-                        <li><a href="locations/ikeja/">Ikeja</a></li>
-                        <li><a href="locations/lagos-island/">Lagos Island</a></li>
-                        <li><a href="locations/surulere/">Surulere</a></li>
+                        <li><a href="/locations/lekki/">Lekki</a></li>
+                        <li><a href="/locations/victoria-island/">Victoria Island</a></li>
+                        <li><a href="/locations/ikoyi/">Ikoyi</a></li>
+                        <li><a href="/locations/ikeja/">Ikeja</a></li>
+                        <li><a href="/locations/lagos-island/">Lagos Island</a></li>
+                        <li><a href="/locations/surulere/">Surulere</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
                     <h4>Company</h4>
                     <ul>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="/about/">About Us</a></li>
+                        <li><a href="/blog/">Blog</a></li>
+                        <li><a href="/contact/">Contact</a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer-certs">
                 <span>Certified&nbsp;by</span>
-                <img src="images/certs/ncaaimage.webp" alt="Nigerian Civil Aviation Authority (NCAA)" width="120" height="40">
-                <img src="images/certs/cacnigeria.svg" alt="Corporate Affairs Commission Nigeria (CAC)" width="120" height="40">
+                <img src="/images/certs/ncaaimage.webp" alt="Nigerian Civil Aviation Authority (NCAA)" width="120" height="40">
+                <img src="/images/certs/cacnigeria.svg" alt="Corporate Affairs Commission Nigeria (CAC)" width="120" height="40">
             </div>
             <div class="footer-bottom">
                 <p>&copy; 2026 PanoptesDrones. All rights reserved.</p>
@@ -997,10 +997,12 @@ def generate_page(service_key, loc_slug):
 
 </html>
 '''
-    filepath = os.path.join(ROOT, filename)
+    outdir = os.path.join(ROOT, slug)
+    os.makedirs(outdir, exist_ok=True)
+    filepath = os.path.join(outdir, 'index.html')
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write(html)
-    return filename
+    return slug
 
 
 # ── Generate all 24 pages ─────────────────────────────────────────────
