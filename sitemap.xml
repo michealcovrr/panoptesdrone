@@ -3,25 +3,25 @@
     <!-- Main Pages -->
     <url>
         <loc>https://panoptesdrones.com/</loc>
-        <lastmod>2026-02-15</lastmod>
+        <lastmod>2026-02-28</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://panoptesdrones.com/about.html</loc>
-        <lastmod>2026-02-15</lastmod>
+        <loc>https://panoptesdrones.com/about/</loc>
+        <lastmod>2026-02-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://panoptesdrones.com/contact.html</loc>
-        <lastmod>2026-02-15</lastmod>
+        <loc>https://panoptesdrones.com/contact/</loc>
+        <lastmod>2026-02-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://panoptesdrones.com/blog.html</loc>
-        <lastmod>2026-02-15</lastmod>
+        <loc>https://panoptesdrones.com/blog/</loc>
+        <lastmod>2026-02-28</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -88,47 +88,231 @@
         <priority>0.7</priority>
     </url>
 
-    <!-- Location Pages -->
+    <!-- Location Hub Pages -->
     <url>
         <loc>https://panoptesdrones.com/locations/</loc>
-        <lastmod>2026-02-15</lastmod>
+        <lastmod>2026-02-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://panoptesdrones.com/locations/lekki/</loc>
-        <lastmod>2026-02-15</lastmod>
+        <lastmod>2026-02-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://panoptesdrones.com/locations/victoria-island/</loc>
-        <lastmod>2026-02-15</lastmod>
+        <lastmod>2026-02-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://panoptesdrones.com/locations/ikoyi/</loc>
-        <lastmod>2026-02-15</lastmod>
+        <lastmod>2026-02-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://panoptesdrones.com/locations/ikeja/</loc>
-        <lastmod>2026-02-15</lastmod>
+        <lastmod>2026-02-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://panoptesdrones.com/locations/lagos-island/</loc>
-        <lastmod>2026-02-15</lastmod>
+        <lastmod>2026-02-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://panoptesdrones.com/locations/surulere/</loc>
-        <lastmod>2026-02-15</lastmod>
+        <lastmod>2026-02-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
+    </url>
+
+    <!-- Drone Rental -->
+    <url>
+        <loc>https://panoptesdrones.com/drone-rental-lagos/</loc>
+        <lastmod>2026-02-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Real Estate Drone Service Pages -->
+    <url>
+        <loc>https://panoptesdrones.com/real-estate-drone-lagos/</loc>
+        <lastmod>2026-02-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://panoptesdrones.com/real-estate-drone-lekki/</loc>
+        <lastmod>2026-02-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://panoptesdrones.com/real-estate-drone-victoria-island/</loc>
+        <lastmod>2026-02-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://panoptesdrones.com/real-estate-drone-ikoyi/</loc>
+        <lastmod>2026-02-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://panoptesdrones.com/real-estate-drone-ikeja/</loc>
+        <lastmod>2026-02-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://panoptesdrones.com/real-estate-drone-lagos-island/</loc>
+        <lastmod>2026-02-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://panoptesdrones.com/real-estate-drone-surulere/</loc>
+        <lastmod>2026-02-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Construction Drone Service Pages -->
+    <url>
+        <loc>https://panoptesdrones.com/construction-drone-lagos/</loc>
+        <lastmod>2026-02-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://panoptesdrones.com/construction-drone-lekki/</loc>
+        <lastmod>2026-02-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://panoptesdrones.com/construction-drone-victoria-island/</loc>
+        <lastmod>2026-02-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://panoptesdrones.com/construction-drone-ikoyi/</loc>
+        <lastmod>2026-02-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://panoptesdrones.com/construction-drone-ikeja/</loc>
+        <lastmod>2026-02-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://panoptesdrones.com/construction-drone-lagos-island/</loc>
+        <lastmod>2026-02-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://panoptesdrones.com/construction-drone-surulere/</loc>
+        <lastmod>2026-02-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Events Drone Service Pages -->
+    <url>
+        <loc>https://panoptesdrones.com/events-drone-lagos/</loc>
+        <lastmod>2026-02-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://panoptesdrones.com/events-drone-lekki/</loc>
+        <lastmod>2026-02-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://panoptesdrones.com/events-drone-victoria-island/</loc>
+        <lastmod>2026-02-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://panoptesdrones.com/events-drone-ikoyi/</loc>
+        <lastmod>2026-02-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://panoptesdrones.com/events-drone-ikeja/</loc>
+        <lastmod>2026-02-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://panoptesdrones.com/events-drone-lagos-island/</loc>
+        <lastmod>2026-02-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://panoptesdrones.com/events-drone-surulere/</loc>
+        <lastmod>2026-02-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Commercial Drone Service Pages -->
+    <url>
+        <loc>https://panoptesdrones.com/commercial-drone-lagos/</loc>
+        <lastmod>2026-02-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://panoptesdrones.com/commercial-drone-lekki/</loc>
+        <lastmod>2026-02-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://panoptesdrones.com/commercial-drone-victoria-island/</loc>
+        <lastmod>2026-02-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://panoptesdrones.com/commercial-drone-ikoyi/</loc>
+        <lastmod>2026-02-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://panoptesdrones.com/commercial-drone-ikeja/</loc>
+        <lastmod>2026-02-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://panoptesdrones.com/commercial-drone-lagos-island/</loc>
+        <lastmod>2026-02-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://panoptesdrones.com/commercial-drone-surulere/</loc>
+        <lastmod>2026-02-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
     </url>
 </urlset>

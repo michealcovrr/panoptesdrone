@@ -36,6 +36,7 @@
     <meta name="twitter:title" content="PanoptesDrones — Aerial Drone Services in Lagos">
     <meta name="twitter:description"
         content="Professional aerial drone services in Lagos for real estate, construction monitoring, and event coverage. Fast turnaround, licensed operators.">
+    <meta name="twitter:image" content="https://panoptesdrones.com/images/panoptesdroneslogo1.png">
 
     <link rel="stylesheet" href="/styles.css">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -56,7 +57,12 @@
         "name": "PanoptesDrones",
         "description": "Lagos-based aerial production and inspection company delivering professional drone services for real estate, construction monitoring, events, and commercial projects. 4K aerial photography and video with fast turnaround.",
         "url": "https://panoptesdrones.com",
-        "logo": "https://panoptesdrones.com/images/panoptesdroneslogo1.png",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://panoptesdrones.com/images/panoptesdroneslogo1.png",
+            "width": 512,
+            "height": 512
+        },
         "image": "https://panoptesdrones.com/images/panoptesdroneslogo1.png",
         "telephone": "+2347025580054",
         "email": "micheal@panoptesdrones.com",
@@ -149,14 +155,44 @@
         }
     }
     </script>
+
+    <!-- Organization Schema for Google Search Logo -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "PanoptesDrones",
+        "url": "https://panoptesdrones.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://panoptesdrones.com/images/panoptesdroneslogo1.png",
+            "width": 512,
+            "height": 512,
+            "caption": "PanoptesDrones Logo"
+        },
+        "image": "https://panoptesdrones.com/images/panoptesdroneslogo1.png",
+        "description": "Lagos-based aerial production and inspection company delivering professional drone services for real estate, construction monitoring, events, and commercial projects.",
+        "telephone": "+2347025580054",
+        "email": "micheal@panoptesdrones.com",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "28 Razak Balogun Street, Abule-Oja, Akoka",
+            "addressLocality": "Yaba",
+            "addressRegion": "Lagos",
+            "postalCode": "101283",
+            "addressCountry": "NG"
+        },
+        "sameAs": []
+    }
+    </script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-8MQENQDME0"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-      gtag('config', 'G-8MQENQDME0');
+        gtag('config', 'G-8MQENQDME0');
     </script>
 </head>
 
@@ -165,7 +201,8 @@
     <nav class="navbar">
         <div class="container nav-container">
             <div class="logo">
-                <img src="/images/panoptesdroneslogo1.png" alt="PanoptesDrones" class="logo-icon"><h1>PanoptesDrones</h1>
+                <img src="/images/panoptesdroneslogo1.png" alt="PanoptesDrones" class="logo-icon">
+                <h1>PanoptesDrones</h1>
             </div>
             <ul class="nav-links">
                 <li><a href="/about/">About us</a></li>
@@ -175,9 +212,11 @@
                 <li><a href="/contact/">Contact</a></li>
             </ul>
             <div class="nav-actions">
-                <a href="https://wa.me/2347025580054?text=Hello%20I%27d%20like%20to%20make%20an%20enquiry%20about%20your%20drone%20service" target="_blank" class="btn-primary btn-nav">Get a Quote</a>
+                <a href="https://wa.me/2347025580054?text=Hello%20I%27d%20like%20to%20make%20an%20enquiry%20about%20your%20drone%20service"
+                    target="_blank" class="btn-primary btn-nav">Get a Quote</a>
             </div>
-            <a href="https://wa.me/2347025580054?text=Hello%20I%27d%20like%20to%20make%20an%20enquiry%20about%20your%20drone%20service" target="_blank" class="btn-talks-mobile">Let's talk</a>
+            <a href="https://wa.me/2347025580054?text=Hello%20I%27d%20like%20to%20make%20an%20enquiry%20about%20your%20drone%20service"
+                target="_blank" class="btn-talks-mobile">Let's talk</a>
             <button class="mobile-menu-toggle" id="mobileMenuToggle">
                 <span></span>
                 <span></span>
@@ -194,7 +233,8 @@
             <li><a href="#pricing">Pricing</a></li>
             <li><a href="/blog/">Blog</a></li>
             <li><a href="/contact/">Contact</a></li>
-            <li><a href="https://wa.me/2347025580054?text=Hello%20I%27d%20like%20to%20make%20an%20enquiry%20about%20your%20drone%20service" target="_blank">Get a Quote</a></li>
+            <li><a href="https://wa.me/2347025580054?text=Hello%20I%27d%20like%20to%20make%20an%20enquiry%20about%20your%20drone%20service"
+                    target="_blank">Get a Quote</a></li>
         </ul>
     </div>
 
@@ -207,12 +247,14 @@
                     Precision Aerial Services for Real Estate, Construction & Events in Lagos.
                 </h1>
                 <p class="hero-subtitle">
-                    Professional drone photography and video solutions that help you market properties, monitor projects,
+                    Professional drone photography and video solutions that help you market properties, monitor
+                    projects,
                     and capture important moments — delivered with speed and reliability across Lagos.
                 </p>
                 <div class="hero-cta">
                     <a href="/contact/" class="btn-hero">Request a Quote</a>
-                    <a href="https://wa.me/2347025580054?text=Hello%20I%27d%20like%20to%20make%20an%20enquiry%20about%20your%20drone%20service" target="_blank" class="btn-call">
+                    <a href="https://wa.me/2347025580054?text=Hello%20I%27d%20like%20to%20make%20an%20enquiry%20about%20your%20drone%20service"
+                        target="_blank" class="btn-call">
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <path
@@ -775,11 +817,11 @@
     </section>
 
     <!-- How It Works Section -->
-    <section id="how-it-works" class="how-it-works-section"
-        style="padding: 100px 0; background: #0E2A47;">
+    <section id="how-it-works" class="how-it-works-section" style="padding: 100px 0; background: #0E2A47;">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title" style="color: #ffffff;">How It Works — Simple Process, Professional Results</h2>
+                <h2 class="section-title" style="color: #ffffff;">How It Works — Simple Process, Professional Results
+                </h2>
             </div>
             <div class="features-grid how-it-works-grid"
                 style="grid-template-columns: repeat(3, 1fr); justify-items: center;">
@@ -850,7 +892,8 @@
                             </svg>
                             Let's talk
                         </a>
-                        <a href="https://wa.me/2347025580054?text=Hello%20I%27d%20like%20to%20make%20an%20enquiry%20about%20your%20drone%20service" target="_blank"
+                        <a href="https://wa.me/2347025580054?text=Hello%20I%27d%20like%20to%20make%20an%20enquiry%20about%20your%20drone%20service"
+                            target="_blank"
                             style="display: inline-flex; align-items: center; gap: 8px; text-decoration: none; background: #25D366; color: #ffffff; padding: 0 1.5rem; min-height: 50px; width: auto; border-radius: 24px; font-weight: 500; font-size: 1rem; justify-content: center; border: none; cursor: pointer; white-space: nowrap;">
                             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="color: white;">
                                 <path
@@ -884,7 +927,8 @@
     <section style="padding: 4rem 0; background: #0E2A47;">
         <div class="container" style="text-align: center; max-width: 800px;">
             <h2 class="section-title" style="color: #ffffff;">What's Included in Every Shoot</h2>
-            <p style="margin-bottom: 2rem; color: rgba(255,255,255,0.65);">Every Panoptes Drones booking comes standard with:</p>
+            <p style="margin-bottom: 2rem; color: rgba(255,255,255,0.65);">Every Panoptes Drones booking comes standard
+                with:</p>
             <ul
                 style="list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; text-align: left; color: rgba(255,255,255,0.85);">
                 <li style="display: flex; align-items: center; gap: 0.5rem;"><span
@@ -954,31 +998,49 @@
             <div style="max-width: 800px; margin: 0 auto; display: grid; gap: 2rem;">
                 <div>
                     <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem;">How do I book a shoot?</h3>
-                    <p style="color: var(--color-text-secondary);">Simply WhatsApp or call us with your project details — location, date, and what you need. We'll confirm availability, recommend the right package, and lock in your booking with a deposit.</p>
+                    <p style="color: var(--color-text-secondary);">Simply WhatsApp or call us with your project details
+                        — location, date, and what you need. We'll confirm availability, recommend the right package,
+                        and lock in your booking with a deposit.</p>
                 </div>
                 <div>
                     <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem;">What's your turnaround time for footage?</h3>
-                    <p style="color: var(--color-text-secondary);">Real estate packages are delivered within 48 hours. Event and wedding coverage within 72 hours. Construction monitoring footage is delivered per the agreed schedule — usually same day or next day.</p>
+                    <p style="color: var(--color-text-secondary);">Real estate packages are delivered within 48 hours.
+                        Event and wedding coverage within 72 hours. Construction monitoring footage is delivered per the
+                        agreed schedule — usually same day or next day.</p>
                 </div>
                 <div>
                     <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem;">Do you serve my area of Lagos?</h3>
-                    <p style="color: var(--color-text-secondary);">We cover all of Lagos — Lekki, Victoria Island, Ikoyi, Ikeja, Lagos Island, Surulere, Banana Island, Eko Atlantic, and Mainland areas. Contact us to confirm availability for your location.</p>
+                    <p style="color: var(--color-text-secondary);">We cover all of Lagos — Lekki, Victoria Island,
+                        Ikoyi, Ikeja, Lagos Island, Surulere, Banana Island, Eko Atlantic, and Mainland areas. Contact
+                        us to confirm availability for your location.</p>
                 </div>
                 <div>
                     <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem;">What's included in each package?</h3>
-                    <p style="color: var(--color-text-secondary);">Every booking includes a professional operator, 4K aerial capture, editing, and organized digital delivery. Specific deliverables vary by package — real estate includes video + photos + social cuts, events include highlight footage, and construction includes progress documentation.</p>
+                    <p style="color: var(--color-text-secondary);">Every booking includes a professional operator, 4K
+                        aerial capture, editing, and organized digital delivery. Specific deliverables vary by package —
+                        real estate includes video + photos + social cuts, events include highlight footage, and
+                        construction includes progress documentation.</p>
                 </div>
                 <div>
-                    <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem;">Do you offer recurring packages for construction or real estate?</h3>
-                    <p style="color: var(--color-text-secondary);">Yes. Construction firms can book monthly or bi-weekly monitoring packages with scheduled visits and consistent delivery. Real estate agents with high listing volume can arrange bulk shoot deals — contact us to discuss.</p>
+                    <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem;">Do you offer recurring packages for
+                        construction or real estate?</h3>
+                    <p style="color: var(--color-text-secondary);">Yes. Construction firms can book monthly or bi-weekly
+                        monitoring packages with scheduled visits and consistent delivery. Real estate agents with high
+                        listing volume can arrange bulk shoot deals — contact us to discuss.</p>
                 </div>
                 <div>
-                    <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem;">Is drone flying legal in Lagos? Are you licensed?</h3>
-                    <p style="color: var(--color-text-secondary);">Yes, we operate in full compliance with Nigerian Civil Aviation Authority (NCAA) requirements. Our operations are licensed, insured, and conducted within permitted airspace. You don't need to worry about the legal side — we handle it.</p>
+                    <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem;">Is drone flying legal in Lagos? Are you
+                        licensed?</h3>
+                    <p style="color: var(--color-text-secondary);">Yes, we operate in full compliance with Nigerian
+                        Civil Aviation Authority (NCAA) requirements. Our operations are licensed, insured, and
+                        conducted within permitted airspace. You don't need to worry about the legal side — we handle
+                        it.</p>
                 </div>
                 <div>
                     <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem;">Do you also offer drone rental?</h3>
-                    <p style="color: var(--color-text-secondary);">Yes — self-operated rental is available for experienced operators who want to fly themselves. Contact us with your requirements and we'll discuss availability and terms.</p>
+                    <p style="color: var(--color-text-secondary);">Yes — self-operated rental is available for
+                        experienced operators who want to fly themselves. Contact us with your requirements and we'll
+                        discuss availability and terms.</p>
                 </div>
             </div>
         </div>
@@ -992,17 +1054,31 @@
             <div class="footer-grid">
                 <div class="footer-column">
                     <h4>PanoptesDrones</h4>
-                    <p class="footer-brand-desc">Lagos-based aerial production and inspection company delivering professional drone services for real estate, construction, events, and commercial projects.</p>
+                    <p class="footer-brand-desc">Lagos-based aerial production and inspection company delivering
+                        professional drone services for real estate, construction, events, and commercial projects.</p>
                     <div class="footer-contact-line">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                            <circle cx="12" cy="10" r="3" />
+                        </svg>
                         <span>28 Razak Balogun Street, Abule-Oja, Akoka, Yaba, Lagos 101283</span>
                     </div>
                     <div class="footer-contact-line">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-                        <a href="https://wa.me/2347025580054?text=Hello%20I%27d%20like%20to%20make%20an%20enquiry%20about%20your%20drone%20service" target="_blank">070 2558 0054</a>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+                        </svg>
+                        <a href="https://wa.me/2347025580054?text=Hello%20I%27d%20like%20to%20make%20an%20enquiry%20about%20your%20drone%20service"
+                            target="_blank">070 2558 0054</a>
                     </div>
                     <div class="footer-contact-line">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                            <polyline points="22,6 12,13 2,6" />
+                        </svg>
                         <a href="mailto:micheal@panoptesdrones.com">micheal@panoptesdrones.com</a>
                     </div>
                 </div>
@@ -1038,20 +1114,34 @@
             </div>
             <div class="footer-certs">
                 <span>Certified&nbsp;by</span>
-                <img src="/images/certs/ncaaimage.webp" alt="Nigerian Civil Aviation Authority (NCAA)" width="120" height="40">
-                <img src="/images/certs/cacnigeria.svg" alt="Corporate Affairs Commission Nigeria (CAC)" width="120" height="40">
+                <img src="/images/certs/ncaaimage.webp" alt="Nigerian Civil Aviation Authority (NCAA)" width="120"
+                    height="40">
+                <img src="/images/certs/cacnigeria.svg" alt="Corporate Affairs Commission Nigeria (CAC)" width="120"
+                    height="40">
             </div>
             <div class="footer-bottom">
                 <p>&copy; 2026 PanoptesDrones. All rights reserved.</p>
                 <div class="footer-social">
                     <a href="https://x.com/panoptesdrones" target="_blank" aria-label="X (Twitter)">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                        </svg>
                     </a>
                     <a href="https://instagram.com/panoptesdrones" target="_blank" aria-label="Instagram">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                        </svg>
                     </a>
-                    <a href="https://wa.me/2347025580054?text=Hello%20I%27d%20like%20to%20make%20an%20enquiry%20about%20your%20drone%20service" target="_blank" aria-label="WhatsApp">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    <a href="https://wa.me/2347025580054?text=Hello%20I%27d%20like%20to%20make%20an%20enquiry%20about%20your%20drone%20service"
+                        target="_blank" aria-label="WhatsApp">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                        </svg>
                     </a>
                 </div>
             </div>
